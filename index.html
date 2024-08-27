@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PIANO COOL - Aprende y Practica</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="icon.png" type="image/x-icon">
+</head>
+<body>
+    <div class="header">
+        <h1>PIANO COOL</h1>
+       
+    </div>
+    <div id="inicio" class="section">
+        <h2>Bienvenido a Piano Cool</h2>
+        <p>Explora las funciones del sitio y aprende a tocar el piano de forma interactiva.</p>
+    </div>
+    <div id="practicar" class="section">
+        <h2>Practica</h2>
+        <p>Aquí puedes practicar tus habilidades con diferentes ejercicios y melodías.</p>
+    </div>
+    <div id="configuracion" class="section">
+        <h2>Configuración</h2>
+        <p>Personaliza tu experiencia en el piano, ajusta el volumen, muestra de teclas, y más.</p>
+    </div>  
+        <div class="wrapper">
+            <header>
+                <h2>Practica tus habilidades</h2>
+                <div id="noteToPlay" class="note-display">Presiona la tecla correcta</div> <!-- Nota a ser mostrada -->
+                <div class="column volume-slider">
+                    <span>Volume</span><input type="range" min="0" max="1" value="0.5" step="any"> 
+                </div>
+                <div class="column keys-checkbox">
+                    <span>Show Keys</span><input type="checkbox" checked>
+                </div>
+            </header>
+            
+        </div>
+        <ul class="piano-keys">
+            <li class="key white" data-key="a" data-note="do"><span>Do</span></li>
+            <li class="key black" data-key="w" data-note="do sostenido"><span>Do♯</span></li>
+            <li class="key white" data-key="s" data-note="re"><span>Re</span></li>
+            <li class="key black" data-key="e" data-note="re sostenido"><span>Re♯</span></li>
+            <li class="key white" data-key="d" data-note="mi"><span>Mi</span></li>
+            <li class="key white" data-key="f" data-note="fa"><span>Fa</span></li>
+            <li class="key black" data-key="t" data-note="fa sostenido"><span>Fa♯</span></li>
+            <li class="key white" data-key="g" data-note="sol"><span>Sol</span></li>
+            <li class="key black" data-key="y" data-note="sol sostenido"><span>Sol♯</span></li>
+            <li class="key white" data-key="h" data-note="la"><span>La</span></li>
+            <li class="key black" data-key="u" data-note="si bemol"><span>La♯</span></li>
+            <li class="key white" data-key="j" data-note="si"><span>Si</span></li>
+           
+        </ul>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
