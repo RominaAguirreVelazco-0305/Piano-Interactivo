@@ -1,6 +1,6 @@
 # 🎹 Piano Interactivo
 
-**Github Pages:** [https://rominaaguirrevelazco-0305.github.io/Piano-Interactivo/]
+**Github Pages:** https://rominaaguirrevelazco-0305.github.io/Piano-Interactivo/
 
 ## 📄 Descripción
 ¡Bienvenido al proyecto de **Piano Interactivo**! Este es un piano web simple y divertido que permite a los usuarios tocar notas, aprender a reconocer sonidos, y jugar un juego interactivo en el que deben identificar las notas correctas después de escucharlas. El proyecto está construido utilizando **HTML, CSS y JavaScript**, y es completamente funcional dentro del navegador.
